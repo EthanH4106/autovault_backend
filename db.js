@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 
 //testdb is name of database, it will automatically make it
 mongoose
-  .connect("mongodb+srv://ecolehelms_db_user:pjwdw4KNkgSAAwsF@cluster0.kx3lja4.mongodb.net/")
+  .connect("mongodb+srv://ecolehelms_db_user:EthanH@cluster0.kx3lja4.mongodb.net/")
   .then(() => console.log("Connected to mongodb..."))
   .catch((err) => console.error("could not connect ot mongodb...", err));
 
