@@ -1,10 +1,49 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    <body>
-        <h1>Cars API</h1>
-        <p><a href="api/cars/">View Cars</a></p>
-    </body>
+<head>
+    <title>AutoVault API</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+    <header>
+        <h1>AutoVault</h1>
+        <span>REST API</span>
+    </header>
+
+    <main>
+        <section class="intro">
+            <h2>AutoVault <span>API</span></h2>
+            <p>
+                Welcome to the AutoVault API.
+                Explore our collection of 40 vehicles,
+                including their specifications and
+                performance data.
+            </p>
+        </section>
+
+        <section class="api-card">
+            <div class="endpoint">
+                <span class="method">GET</span>
+                <h3>/api/cars</h3>
+            </div>
+
+            <h3>All Vehicles</h3>
+
+            <p>
+                Retrieve the complete AutoVault
+                vehicle database in JSON format.
+            </p>
+
+            <a href="/api/cars" class="api-button">
+                View All Cars &rarr;
+            </a>
+        </section>
+    </main>
+
+    <footer>
+        <p>AutoVault | Powered by Node.js & Express</p>
+    </footer>
+
+</body>
 </html>
