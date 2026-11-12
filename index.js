@@ -777,6 +777,25 @@ let cars = [
     "zeroToSixty": 3.1,
     "topSpeed": 205,
     "quarterMile": 10.9
+  },
+  {
+    "id": 41,
+    "name": "2012 Buick Enclave Premium",
+    "year": 2012,
+    "make": "Buick",
+    "model": "Enclave",
+    "trim": "Premium",
+    "category": "suv",
+    "image": "/images/cars/car-41.webp",
+    "engine": "3.6L V6",
+    "drivetrain": "AWD",
+    "weight": 4500,
+    "transmission": "6-speed automatic",
+    "horsepower": 288,
+    "torque": 275,
+    "zeroToSixty": 8.5,
+    "topSpeed": 120,
+    "quarterMile": 16.5
   }
 ]
 
